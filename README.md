@@ -1,0 +1,1 @@
+This small project requires the user to enter a date in the format of YYYY, MM, DD. The program uses NASA's open API, APOD (Astronomy Picture of the Day), to fetch the photograph which is then displayed.
