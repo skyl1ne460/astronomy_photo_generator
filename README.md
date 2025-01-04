@@ -1,1 +1,2 @@
-This small project requires the user to enter a date in the format of YYYY, MM, DD. The program uses NASA's open API, APOD (Astronomy Picture of the Day), to fetch the photograph which is then displayed.
+tkinter program which prompts user to input a date, which displays the corresponding astronomy picture of the day using nasa's api.
+https://data.nasa.gov/Space-Science/Astronomy-Picture-of-the-Day-API/ez2w-t8ua/about_data
