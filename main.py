@@ -19,7 +19,7 @@ def find_apod():
                       "api_key": "DEMO_KEY"}
 
     response = requests.get(url=endpoint, params=parameters)
-
+    
     if response.ok:
         try:
             data = response.json()
@@ -49,7 +49,6 @@ def find_apod():
             print("Error processing response:", e)
     else:
         messagebox.showerror("Error: {response.status_code}", "Date Entered Does Not Exist, Enter Valid Date")
-
 
 
 window = Tk()
